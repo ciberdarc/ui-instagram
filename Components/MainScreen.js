@@ -17,11 +17,7 @@ import { Icon } from 'native-base'
 
 export default class MainScreen extends Component {
   static navigationOptions = {
-    headerLeft: <Icon name="ios-camera-outline"
-    style={{ paddingLeft: 10 }}/>,
-    title: "Instagram",
-    headerRight: <Icon name="ios-send-outline"
-    style={{ paddingRight: 10 }}/>
+    header: null
   }
 
   render () {
